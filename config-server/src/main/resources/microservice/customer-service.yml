@@ -1,0 +1,16 @@
+base:
+  url: https://api.google.com
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-service:8761/eureka/
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:msrabbitmq}
+    username: ${RABBITMQ_DEFAULT_USER:user}
+    password: ${RABBITMQ_DEFAULT_PASS:s3cr3t}
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: msqueue

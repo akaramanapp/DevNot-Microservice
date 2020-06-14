@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayServiceApplication<gateway-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devnot.gatewayservice.GatewayServiceApplication",
+            "projectName": "gateway-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CustomerServiceApplication<customer-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devnot.customerservice.CustomerServiceApplication",
+            "projectName": "customer-service",
+            "args": ""
+        }
+    ]
+}

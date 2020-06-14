@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f9f9c8f-f864-4a1a-af05-85c12ced5a07" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bPZ5Iii5ceAq3UUFQiSzb6nqS9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/customer-service" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devnot.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/customer-service" />
+      <recent name="$PROJECT_DIR$/config-server/src/main/resources/microservice" />
+      <recent name="$PROJECT_DIR$/config-server" />
+      <recent name="$PROJECT_DIR$/discovery-service" />
+      <recent name="$PROJECT_DIR$/gateway-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NotificationServiceApplication">
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devnot.configserver.ConfigServerApplication" />
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devnot.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devnot.customerservice.CustomerServiceApplication" />
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devnot.customerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devnot.discoveryservice.DiscoveryServiceApplication" />
+      <module name="discovery-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devnot.discoveryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devnot.notificationservice.NotificationServiceApplication" />
+      <module name="notification-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devnot.notificationservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="notification-service.config-server: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="config-server" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="notification-service/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NotificationServiceApplication" />
+        <item itemvalue="Application.CustomerServiceApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.DiscoveryServiceApplication" />
+        <item itemvalue="Docker.notification-service.config-server: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f9f9c8f-f864-4a1a-af05-85c12ced5a07" name="Default Changelist" comment="" />
+      <created>1588535504562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588535504562</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="202" key="#Project_Structure" timestamp="1588535612424">
+      <screen x="0" y="23" width="1641" height="1027" />
+    </state>
+    <state x="420" y="202" key="#Project_Structure/0.23.1641.1027@0.23.1641.1027" timestamp="1588535612424" />
+    <state x="414" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589117981003">
+      <screen x="0" y="23" width="1641" height="1027" />
+    </state>
+    <state x="414" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1641.1027@0.23.1641.1027" timestamp="1589117981003" />
+    <state x="741" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1592062211951">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="633" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1640.1027@0.23.1640.1027" timestamp="1589584613597" />
+    <state x="633" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1641.1027@0.23.1641.1027" timestamp="1589583061302" />
+    <state x="741" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062211951" />
+    <state x="741" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057/1920.23.1642.1027@0.23.1920.1057" timestamp="1591976123413" />
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592121951678">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592121951678" />
+    <state x="515" y="262" key="#notification-service.config-server:_Compose_Deployment" timestamp="1589584981028">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state x="515" y="262" key="#notification-service.config-server:_Compose_Deployment/0.23.1640.1027@0.23.1640.1027" timestamp="1589584981028" />
+    <state width="500" height="466" key="DebuggerActiveHint" timestamp="1592061939339">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="500" height="466" key="DebuggerActiveHint/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592061939339" />
+    <state width="1598" height="279" key="GridCell.Tab.0.bottom" timestamp="1592083979090">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="279" key="GridCell.Tab.0.bottom/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979090" />
+    <state width="1598" height="279" key="GridCell.Tab.0.bottom/0.23.1641.1027@0.23.1641.1027" timestamp="1589934814110" />
+    <state width="1598" height="279" key="GridCell.Tab.0.bottom/0.23.1642.1027@0.23.1642.1027" timestamp="1589925801902" />
+    <state width="1598" height="345" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257741" />
+    <state width="1598" height="345" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744520" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1643.1027@0.23.1920.1057" timestamp="1589037823366" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1644.1027@0.23.1920.1057" timestamp="1589036162647" />
+    <state width="1598" height="279" key="GridCell.Tab.0.center" timestamp="1592083979089">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="279" key="GridCell.Tab.0.center/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979089" />
+    <state width="1598" height="279" key="GridCell.Tab.0.center/0.23.1641.1027@0.23.1641.1027" timestamp="1589934814106" />
+    <state width="1598" height="279" key="GridCell.Tab.0.center/0.23.1642.1027@0.23.1642.1027" timestamp="1589925801901" />
+    <state width="1598" height="345" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257740" />
+    <state width="1598" height="345" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744518" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1643.1027@0.23.1920.1057" timestamp="1589037823366" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1644.1027@0.23.1920.1057" timestamp="1589036162646" />
+    <state width="1598" height="279" key="GridCell.Tab.0.left" timestamp="1592083979089">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="279" key="GridCell.Tab.0.left/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979089" />
+    <state width="1598" height="279" key="GridCell.Tab.0.left/0.23.1641.1027@0.23.1641.1027" timestamp="1589934814105" />
+    <state width="1598" height="279" key="GridCell.Tab.0.left/0.23.1642.1027@0.23.1642.1027" timestamp="1589925801901" />
+    <state width="1598" height="345" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257739" />
+    <state width="1598" height="345" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744518" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1643.1027@0.23.1920.1057" timestamp="1589037823365" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1644.1027@0.23.1920.1057" timestamp="1589036162645" />
+    <state width="1598" height="279" key="GridCell.Tab.0.right" timestamp="1592083979090">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="279" key="GridCell.Tab.0.right/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979090" />
+    <state width="1598" height="279" key="GridCell.Tab.0.right/0.23.1641.1027@0.23.1641.1027" timestamp="1589934814109" />
+    <state width="1598" height="279" key="GridCell.Tab.0.right/0.23.1642.1027@0.23.1642.1027" timestamp="1589925801902" />
+    <state width="1598" height="345" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257740" />
+    <state width="1598" height="345" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744519" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1643.1027@0.23.1920.1057" timestamp="1589037823366" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1644.1027@0.23.1920.1057" timestamp="1589036162647" />
+    <state width="1598" height="272" key="GridCell.Tab.1.bottom" timestamp="1592083979084">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="272" key="GridCell.Tab.1.bottom/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979084" />
+    <state width="1598" height="345" key="GridCell.Tab.1.bottom/0.23.1641.1027@0.23.1641.1027" timestamp="1589591371506" />
+    <state width="1598" height="345" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257742" />
+    <state width="1598" height="345" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744328" />
+    <state width="1598" height="272" key="GridCell.Tab.1.center" timestamp="1592083979084">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="272" key="GridCell.Tab.1.center/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979084" />
+    <state width="1598" height="345" key="GridCell.Tab.1.center/0.23.1641.1027@0.23.1641.1027" timestamp="1589591371505" />
+    <state width="1598" height="345" key="GridCell.Tab.1.center/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257742" />
+    <state width="1598" height="345" key="GridCell.Tab.1.center/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744327" />
+    <state width="1598" height="272" key="GridCell.Tab.1.left" timestamp="1592083979083">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="272" key="GridCell.Tab.1.left/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979083" />
+    <state width="1598" height="345" key="GridCell.Tab.1.left/0.23.1641.1027@0.23.1641.1027" timestamp="1589591371505" />
+    <state width="1598" height="345" key="GridCell.Tab.1.left/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257741" />
+    <state width="1598" height="345" key="GridCell.Tab.1.left/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744326" />
+    <state width="1598" height="272" key="GridCell.Tab.1.right" timestamp="1592083979084">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state width="1598" height="272" key="GridCell.Tab.1.right/0.23.1640.1027@0.23.1640.1027" timestamp="1592083979084" />
+    <state width="1598" height="345" key="GridCell.Tab.1.right/0.23.1641.1027@0.23.1641.1027" timestamp="1589591371505" />
+    <state width="1598" height="345" key="GridCell.Tab.1.right/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592062257742" />
+    <state width="1598" height="345" key="GridCell.Tab.1.right/0.23.1920.1057/1920.23.1641.1027@0.23.1920.1057" timestamp="1592060744327" />
+    <state x="432" y="237" key="NewModule_or_Project.wizard" timestamp="1589573092242">
+      <screen x="0" y="23" width="1641" height="1027" />
+    </state>
+    <state x="432" y="237" key="NewModule_or_Project.wizard/0.23.1640.1027@0.23.1640.1027" timestamp="1588539191009" />
+    <state x="432" y="237" key="NewModule_or_Project.wizard/0.23.1641.1027@0.23.1641.1027" timestamp="1589573092242" />
+    <state x="506" y="243" key="NewModule_or_Project.wizard/0.23.1920.1057/1920.23.1643.1027@0.23.1920.1057" timestamp="1589032242451" />
+    <state x="359" y="121" key="SettingsEditor" timestamp="1592060159684">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="307" y="118" key="SettingsEditor/0.23.1641.1027@0.23.1641.1027" timestamp="1588536600153" />
+    <state x="359" y="121" key="SettingsEditor/0.23.1920.1057/1920.23.1640.1027@0.23.1920.1057" timestamp="1592060159684" />
+    <state x="359" y="121" key="SettingsEditor/0.23.1920.1057/1920.23.1642.1027@0.23.1920.1057" timestamp="1591988323549" />
+    <state x="196" y="159" key="new project wizard" timestamp="1588537259508">
+      <screen x="0" y="23" width="1640" height="1027" />
+    </state>
+    <state x="196" y="159" key="new project wizard/0.23.1640.1027@0.23.1640.1027" timestamp="1588537259508" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification-service/src/main/java/com/devnot/notificationservice/NotificationConsumerService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

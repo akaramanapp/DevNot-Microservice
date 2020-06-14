@@ -1,0 +1,80 @@
+version: '3.1'
+
+networks:
+  devnot:
+    driver: bridge
+
+services:
+  config-server:
+    build: ../config-server
+    image: config-server
+    hostname: config-server
+    networks:
+      - devnot
+    ports:
+      - '8888:8888'
+  notification-service:
+    image: notification-service
+    build: ../notification-service
+    networks:
+      - devnot
+    environment:
+      RABBIT_HOST: msrabbitmq
+    restart: on-failure
+    hostname: notification-service
+    links:
+      - config-server
+      - discovery-service
+      - msrabbitmq
+    depends_on:
+      - config-server
+      - msrabbitmq
+  customer-service:
+    image: customer-service
+    build: ../customer-service
+    networks:
+      - devnot
+    environment:
+      RABBIT_HOST: msrabbitmq
+    restart: on-failure
+    hostname: customer-service
+    links:
+      - config-server
+      - discovery-service
+      - msrabbitmq
+    depends_on:
+      - config-server
+      - msrabbitmq
+  discovery-service:
+    image: discovery-service
+    build: ../discovery-service
+    networks:
+      - devnot
+    ports:
+      - '8761:8761'
+    hostname: discovery-service
+  gateway-service:
+    image: gateway-service
+    build: ../gateway-service
+    hostname: gateway-service
+    networks:
+      - devnot
+    ports:
+      - '5000:5000'
+    restart: on-failure
+    links:
+      - config-server
+      - discovery-service
+    depends_on:
+      - config-server
+  msrabbitmq:
+    image: rabbitmq:3-management
+    hostname: msrabbitmq
+    networks:
+      - devnot
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=s3cr3t
